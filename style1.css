@@ -7,7 +7,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.topLayout{
+.topLayout {
     display: flex;
     justify-content: space-between;
     height: 90px;
@@ -223,15 +223,6 @@
     font-size: 14.5px;
 }
 
-
-
-
-
-
-
-
-
-
 .banner{
     display: flex;
     max-height: 60px;
@@ -288,7 +279,6 @@
 .questionLogo{
     margin: 0 15px 0 7px;
 }
-
 
 .name{
     color:rgb(112, 194, 80) ;
