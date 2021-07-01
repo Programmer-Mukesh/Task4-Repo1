@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topLayout{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.logo{
+    margin: 0.5rem 0rem 0rem 1rem;
+    width: 200px;
+    height: 10px;
+}
+
+.upperRight{
+    margin: 1rem; 
+    padding-right:7px ; 
+    font-size: 14px; 
+}
+
+.logout{
+    text-align: end;
+    color: rgb(83, 82, 82);
+    font-weight: bold;  
+}
+
+.blueText{
+    color: rgb(0, 174, 255);
+    cursor: pointer;
+    letter-spacing: -0.6px;
+}
+
+.bar{
+    color: rgb(129, 128, 128);
+    font-weight: bold;
+}
+
+.upperRightImages{
+    text-align: end;
+    margin-top: 5px;
+}
+
+.upperRightImages:hover{
+    cursor: pointer;
+}
+
+.fbLogo{
+    width: 81px;
+    height: 20px;
+}
+.twitterLogo{
+    width:61px;
+    height:20px;
+}
+
+
+.ul{
+    display: flex;
+}
+
+.navLinks{
+    list-style: none;
+    padding-left:4px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8rem 0.5rem 0.28rem 0.5rem;
+}
+
+.menuLeft{
+    background-color:  rgb(26, 196, 248);
+    color: white;
+    text-decoration: none;
+    padding: 5px 12px 4px 12px;
+    margin: -1.3px;   
+}
+.menuLeft:hover{
+    background-color:  rgb(17, 169, 216); 
+    padding-bottom: 6px;
+}
+
+.menuRight{
+    background-color:  rgb(94, 190, 56);
+    color: white;
+    text-decoration: none;
+    padding: 5px 12px 4px 12px;
+    margin: -1.3px;
+}
+.menuRight:hover{
+    background-color: rgb(70, 177, 28);
+    padding-bottom: 6px;
+}
+
+.senior{
+    position: relative;   
+}
+
+.dropDown{
+    border: 6px solid rgb(17, 169, 216);
+    width: 250px;
+    margin-top: 6px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    text-transform: capitalize;
+    display: none; 
+}
+
+
+.ddInner{
+    margin: 12px 0 20px 3px;
+}
+
+.ddlist{
+    list-style: none;
+    padding: 2px 0 2px 15px;
+    display: block;
+    font-size: 15px;
+}
+
+.ddAtag{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+.ddBold{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(68, 67, 67);
+}
+
+.ddflex{
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.womenImg{
+    height: 50px;
+    margin: -1.8rem 0 1px 0;
+
+}
+
+.ddHr{
+    align-items: center;
+    width: 220px;
+    border:0.5px dashed rgb(121, 194, 216);
+    margin: 5px 0 5px 5px;
+}
+
+.radiusLeft{
+    border-radius: 5px 0px 0px 0px;
+}
+
+.radiusRight{
+    border-radius: 0px 5px 0px 0px;
+}
+
+.divider{
+    margin-top: 6px;
+    border: 4px solid rgb(70, 177, 28);
+}
+
+.searchBar{
+    display: flex;
+    background-color: rgb(217, 225, 240);
+    padding: 12px 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftBar{
+    background: none;
+    
+}
+
+.lightGreyText{
+    color: rgb(59, 59, 59);
+    font-weight: 700;
+    font-size: 16.5px;  
+    margin-right: 5px;
+}
+
+.leftButtonBar{
+    padding: 2px 10px 3px 10px;
+    color: white;
+    font-size: 14.5px;
+    margin-left: 7px;
+    background-color: rgb(230, 105, 55);
+    border: 3px solid white;
+}
+
+.rightBar{
+    margin-left: 4rem;
+    background-color: rgb(217, 225, 240);
+    padding-left: 5px;
+}
+
+.selector{
+    margin-right: 1rem;
+}
+
+.zip{
+    width: 80px;
+}
+
+.searchBtn{
+    margin-left: 7px;
+    padding: 2px 15px 3px 15px;
+    background-color: rgb(94, 190, 56);
+    border: 2px solid white;
+    color: white;
+    font-size: 14.5px;
+}
+
+
+
+
+
+
+
+
+
+
+.banner{
+    display: flex;
+    max-height: 60px;
+}
+
+.adImg{
+    margin-left: 7.5rem;
+    width: 730px;
+    height: 58px;
+}
+
+.greeting{
+    padding: 1.4rem 1.3rem 0 1.3rem;
+    color: rgb(138, 138, 138);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.blueBox{
+    width: 98%;
+    height: 214px;
+    background-color: rgb(67, 175, 224);
+    color: white;
+}
+
+.space{
+    padding: 1rem 1rem 0 1rem;
+    display: flex;
+
+}
+.careMidLogo{
+    margin: 11px 15px 5px 15px;
+    padding: 3.8rem 2.7rem;
+    background-color: white;
+    width: 180px;
+    color: rgb(146, 146, 146);
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.6px;
+}
+.blueBoxH2{
+    margin-top: 1.5rem;
+}
+.cross{
+    margin: 0 0 0 23rem ;
+}
+
+.instruction{
+    margin-left: 35rem;
+    color: whitesmoke;
+    opacity: 80%;
+    font-size: small;
+}
+.questionLogo{
+    margin: 0 15px 0 7px;
+}
+
+
+.name{
+    color:rgb(112, 194, 80) ;
+    font-family: 'Courgette', cursive;
+    font-weight: 500;
+    font-size: 25px;
+    margin:0px 0px 0px 5px;
+}
+
+.middleContainer{
+    display: grid;
+    margin: 2rem 0 1rem 0;
+    height: 700px;
+    grid-template-columns: 23% 52% 25%;
+    grid-template-rows: 35% 65%;
+}
+
+.midLeftSection{
+    margin-left: 1.3rem;
+    font-family:  Tahoma;   
+}
+
+.midLeftImg{
+    margin: 0rem 0rem 1rem 0rem;
+    height: 140px;
+    width: 130px;
+}
+
+.h4{
+    font-size: 18.5px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    color: rgb(73, 72, 72);
+}
+.hrDot{
+    margin: 5px 27px 4px 0px;
+    border: 0.1px dashed rgb(223, 223, 223);
+}
+
+.sideTiles{
+    font-weight: 400;
+    font-size: 17.5px;
+    letter-spacing: -0.6px;
+    padding-top: 0.23rem;
+    margin-bottom: 4px;
+}
+
+.midMidSection{
+    grid-column: 2/ span 3;
+}
+
+.middleImg{
+    border:1.9px solid rgb(177, 177, 177);
+    width: 658px;
+    height: 220px;
+    margin-top: 2rem;
+}
+
+.midLowerSection{
+    border:1.9px solid rgb(177, 177, 177);
+    margin-bottom: 1rem;
+    width: 68%;
+}
+
+.midText{
+    padding: 1.4rem 1.8rem; 
+}
+
+.h3{
+   color: rgb(85, 165, 54);
+   font-size: 23px ;
+}
+
+.lightText{
+    color:rgb(138, 133, 118);
+    padding: 5px 0px;
+    font-size: 16px ;
+}
+
+.midText .paragraph{
+    letter-spacing: 0.2px;
+}
+
+.greyTxt{
+    color: rgb(119, 119, 119);
+    font-weight: 700;
+    font-size: 16px ;
+    padding-bottom: 5px;
+}
+
+.midRightItem{
+    margin: 2px 18px;
+}
+
+.imageText{
+    background: url(booking-seeker-mhp-bg.jpg);
+    background-size: cover;
+    padding: 1.6rem;
+    width: 290px;
+    height: 360px;
+    text-align: center;  
+    transform: translateX(58.7rem);
+}
+
+.midRightText{
+    background: none;
+    color: white;
+   
+}
+.imageText h3{
+    padding: 20px 0px 2px 0px;
+    font-weight:400;
+    font-size: 29px;
+    letter-spacing: -0.9px;
+}
+.imageSubText {
+    font-size: 14px;
+    padding-top: 5px;
+    
+}
+.imageText .para{
+    padding-top: 6px;
+    font-size: 17px;  
+}
+
+.imageText .btn{
+    margin-top:3.2rem ;
+    font-size: 16px;
+    padding: 3px 10px 6px 10px;
+    color: rgb(22, 175, 168);
+    background-color: white;
+    border:7px solid white;
+    border-radius: 7px; 
+}
+
+.footerContainer1{
+    margin-top: 7rem;
+    display: grid;
+    height: 180px;
+    grid-template-columns: 27% 27% 46%;  
+}
+
+.gridItem1{
+    padding-left: 1.3rem;
+}
+
+.container2Item1{
+    padding-left: 1rem;
+}
+
+.footerContainer2{
+    border:1.9px solid rgb(177, 177, 177);
+    padding-top: 1rem;
+    display: grid;
+    height: 150px;
+    margin: 0 1rem 0 0.3rem ;
+    grid-template-columns: 27% 27% 40%;
+}
+
+.footerContainer3{
+    padding-top: 1.5rem;
+    display: grid;
+    height: 260px;
+    grid-template-columns: 27% 73%;
+}
+
+.descriptionPara{
+    color: rgb(158, 157, 157);
+    font-size: 14.5px;
+    padding-right: 2rem;
+}
