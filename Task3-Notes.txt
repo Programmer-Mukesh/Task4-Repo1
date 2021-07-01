@@ -1,0 +1,16 @@
+Create a layout which is in the image tasks3-layout.png
+
+1. Use the html and css is created in task1  to create task3-layout.png
+
+2. on mouseover of nav items it show the dropdown.
+
+3. create a .js file using jquery to add an events to show the dropdown on mouseover and onmouseleave it should hide.
+
+4. Use the copy text and required images from the url:
+    uat1.carezen.net/login
+    username: pn101@care.com
+    password: letmein1
+
+5. Time for development : 2days.
+
+
